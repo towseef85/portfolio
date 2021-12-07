@@ -1,0 +1,82 @@
+.technology-wrapper{
+    background: #ebbc4e;
+    padding: 20px 0px;
+    
+}
+
+.t-left{
+    width: 45%;
+    float: left;
+}
+.t-right{
+    width: 45%;
+    float: right;
+}
+.technology-container{
+    margin: 10px auto;
+    width: 85%;
+  overflow: hidden;
+}
+
+.technology-container h2{
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    max-width: 100%;
+    background: linear-gradient(
+121.57deg,#FFFFFF 18.77%,rgba(255,255,255,0.66) 60.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.technology-container p{
+    margin: 0px auto;
+    text-align: center;
+    max-width: 750px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    padding-bottom: 3.6rem;
+    color: rgba(37, 37, 37, 0.5);
+}
+
+.technology-container ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin: 3rem 0;
+}
+
+.technology-container ul li{
+    max-width: 320px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.technology-container ul li h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0.02em;
+    -moz-letter-spacing: 0.02em;
+    -ms-letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.technology-container ul li p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+import React from 'react'
+
+const Progressbar = ({bgcolor,progress,height,label}) => {
+	
+	const Parentdiv = {
+		height: height,
+		width: '100%',
+		backgroundColor: 'whitesmoke',
+		borderRadius: 40,
+        margin:'10px'
+	}
+	
+	const Childdiv = {
+		height: '100%',
+		width: `${progress}%`,
+		backgroundColor: bgcolor,
+	borderRadius:40,
+		textAlign: 'right'
+	}
+	
+	const progresstext = {
+		padding: 10,
+		color: 'black',
+		fontWeight: 500
+	}
+		
+	return (
+        <>
+        <span style={{paddingLeft:'20px'}}>{label}</span>
+	<div style={Parentdiv}>
+         
+	<div style={Childdiv}>
+       
+		<span style={progresstext}>{`${progress}%`}</span>
+	</div>
+	</div>
+    </>
+	)
+}
+
+export default Progressbar;
